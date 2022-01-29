@@ -21,7 +21,8 @@ MAJOR.MINOR.PATCH format.
 All work related to a version change, e.g. code, documentation, issues, bugfixes, must happen on a
 topic branch. These changes should only be committed to main via reviewed pull requests. PRs should
 be committed to main as "squash and merge" PRs, to keep the commit history clean. If main moves
-ahead of a topic branch, rebasing is suggested to avoid forks in the commit history.
+ahead of a topic branch, rebasing is suggested to avoid forks in the commit history. All PRs should
+include a version bump and an entry in the CHANGELOG.
 
 All other work, e.g. typo fixes, updates to the README, a change in LICENSE, an isolated change to
 the gitignore, can be committed directly to main.
